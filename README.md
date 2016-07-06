@@ -14,7 +14,7 @@ For configuring credentails you need to Get your SHA-1. You can access your SHA-
 
 Note that the .android folder is hidden so you will not be able to see it in Finder or Windows Explorer. Open a terminal (Command Prompt on Windows) and issue the following command (changing ~/.android.debug.keystore to the appropriate path for your OS):
 
--keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+    -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
 
 In the developer's console, select the ‘Consent screen’ link in the APIs & auth section.You must provide your email address and App name.
 
